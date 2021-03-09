@@ -11,11 +11,12 @@ export default function MainScreen(props) {
     const [profile, setProfile] = useState({});
 
     const choosePerson = (response) => {
+
         const body = {
             id: profile.id,
             choice: response
         }
-        axios.post("https://us-central1-missao-newton.cloudfunctions.net/astroMatch/monalisa-pereira/choose-person", body)
+        axios.post("https://us-central1-missao-newton.cloudfunctions.net/astroMatch/monalisa-pereira-muyembe/choose-person", body)
             .then(() => {
                 getProfile();
             }).catch((error) => {
@@ -24,8 +25,9 @@ export default function MainScreen(props) {
     }
 
     const getProfile = () => {
-        axios.get("https://us-central1-missao-newton.cloudfunctions.net/astroMatch/monalisa-pereira/person")
+        axios.get("https://us-central1-missao-newton.cloudfunctions.net/astroMatch/monalisa-pereira-muyembe/person")
             .then((response) => {
+                console.log("get profile", response)
                 setProfile(response.data.profile)
             }).catch((error) => {
                 console.log(error)

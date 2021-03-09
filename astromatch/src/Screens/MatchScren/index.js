@@ -9,7 +9,7 @@ export default function MatchScren(props) {
   const [match, setMatch] = useState([]);
 
   const clear = () => {
-    axios.put("https://us-central1-missao-newton.cloudfunctions.net/astroMatch/monalisa-pereira/clear")
+    axios.put("https://us-central1-missao-newton.cloudfunctions.net/astroMatch/monalisa-pereira-muyembe/clear")
       .then(() => {
         getMatch()
         window.alert('Clear OK')
