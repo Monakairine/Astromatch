@@ -1,10 +1,10 @@
-## Astromatch
+## Astromatch :heart:
 
 The aim of the Astromatch project was to create an application similar to Tinder. It was built with React, JavaScript, and styled components.
 
 
 
-### Project Screen Shot(s)
+### Project Screen Shots
 
 #### Screen 1
 ![alt text](src/Assets/screen1.PNG)
