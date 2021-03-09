@@ -1,19 +1,23 @@
-## Astromatch :heart:
+# Astromatch :heart:
 
 The aim of the Astromatch project was to create an application similar to Tinder. It was built with React, JavaScript, and styled components.
 
 
 
-### Project Screen Shots
+## Project Screen Shots
 
 #### Screen 1
 ![alt text](src/Assets/screen1.PNG)
 #### Screen 2
 ![alt text](src/Assets/screen2.PNG)
 
+## Languages & tools
 
+- Javascript
+- React
+- Node
 
-### Installation and Setup Instructions
+## Installation and Setup Instructions
 
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
