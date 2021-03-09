@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+## Astromatch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The aim of the Astromatch project was to create an application similar to Tinder. It was built with React, JavaScript, and styled components.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
+### Project Screen Shot(s)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Screen 1
+![alt text](src/Assets/screen1.PNG)
+#### Screen 2
+![alt text](src/Assets/screen2.PNG)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation and Setup Instructions
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Installation:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npm install`
 
-### `yarn eject`
+`npm install styled-components`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`npm install axios`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To Run Test Suite:  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+`npm test`  
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To Start Server:
 
-## Learn More
+`npm start`  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To Visit App:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`localhost:3000`  
 
-### Code Splitting
+## About the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+This was a 2 week project built during the module of Advanced React and Hooks at the Labenu FrontEnd Curse. Project goals included using technologies learned up until this point and familiarizing myself with API calls and useState and useEffect Hooks.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The application has two screens. Upon entering our application, the user is able to see a profile option to choose from. The photo, name and description of the profiles is shown. Two buttons are on the screen: one that allows you to "match" (a "positive" choice) and the other that allows you to discard the suggestion (a "negative" choice). Finally, there is a button at the top that takes you to the matches screen.  
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The second screen is made up of a list of users who "corresponded" with the user who is using one of our application. They were defined as photos and profile names. Finally, the user can clear the information of the matches they gave at any time on the second screen of the website pressing the clear button at the botton of the second screen.
